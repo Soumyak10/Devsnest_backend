@@ -25,6 +25,10 @@ switch (command) {
     fs.renameSync(path, third_val);
     break;
 
+  case "append":
+    fs.appendFileSync(path, third_val);
+    break;
+
   case "unlink":
     fs.unlinkSync(path);
     break;
