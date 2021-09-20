@@ -26,7 +26,7 @@ switch (command) {
     break;
 
   case "append":
-    fs.appendFileSync(path, third_val);
+    fs.appendFile(path, third_val);
     break;
 
   case "unlink":
