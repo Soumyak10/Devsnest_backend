@@ -33,7 +33,7 @@ switch (command) {
     fs.unlinkSync(path);
     break;
 
-  case "rmdir":
+  case "rmkdir":
     fs.rmdirSync(path);
     break;
 }
